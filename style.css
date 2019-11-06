@@ -1,0 +1,299 @@
+body{
+	background: url(let.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#container{
+	background-color:"black";
+	width: 910px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#headercontainer{
+	margin:0;
+}
+
+#searchcontainer {	
+float : left;
+height : 40px;
+}
+
+#piccontainer {
+
+padding:0;
+float : right;
+height: 40px;
+}
+
+#pictures ul {
+	list-style-type:none;
+}
+
+#pictures ul li{
+     list-style-type: none;
+     float: right;
+     margin: 1;
+     padding: 2;
+}
+#piccontainer ul li { display: inline; }
+
+#newsearch{
+		float:left;
+		padding:20px;  
+               
+	}
+	.textinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.button {
+		margin: 10;
+		padding: 5px 50px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: red;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.button:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	.clear{
+		clear:both;
+	}
+
+
+#navheader h2{
+     float: top;
+	 margin:10px auto;
+}
+#navcontainer {           
+    margin: 10px auto;
+    width: 910px;    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    -moz-transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out; 
+    -ms-transition: all 300ms ease-out; 
+    transition: all 300ms ease-out;
+}
+
+a:hover {
+    color: #007ead;    
+}
+
+#nav { 
+    background-color:white;            
+    height: 50px;
+    line-height: 50px;            
+    width: 100%;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {    
+    background: #333;
+    background-image: -o-linear-gradient(bottom, #222222 0%, #555555 100%);
+    background-image: -moz-linear-gradient(top,  #00adee,  #0078a5);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+    background-image: -ms-linear-gradient(bottom, #222222 0%, #555555 100%);    
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));    
+    background-image: linear-gradient(bottom, #222222 0%, #555555 100%);
+    float: left;
+    position: relative;
+    width: 20%;    
+}
+
+#nav li:first-child, #nav li:first-child a { 
+    -webkit-border-radius: 3px 0 0 3px; 
+    -moz-border-radius: 3px 0 0 3px; 
+    border-radius: 3px 0 0 3px; 
+}
+#nav li:last-child, #nav li:last-child a { 
+    -webkit-border-radius: 0 3px 3px 0; 
+    -moz-border-radius: 0 3px 3px 0; 
+    border-radius: 0 3px 3px 0; 
+}
+
+#nav a {                
+    border-right: 1px solid #222;
+    border-left: 1px solid #555;
+    color: #ccc;
+    display: block;
+    font-size: 14px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+    text-shadow: 0 -1px 0 #000;    
+    -webkit-box-shadow: inset 0 0 10px transparent;
+    -moz-box-shadow: inset 0 0 10px transparent;
+}
+
+#nav a:after {
+    background: rgba(255,255,255,.07);
+    content: "";
+    height: 25px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#nav li:hover > a {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+
+#nav span {
+    position: relative;    
+}
+
+#nav a:active span {
+    color: #ffd;
+    position: relative;
+    top: 1px;
+}
+
+#nav li:first-child a {
+    border-left: none;    
+}
+
+#nav li:last-child a {
+    border-right: none;    
+}
+
+.dropdown > a span:after {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #ccc;
+    content: "";
+    right: -13px;
+    position: absolute;
+    top: 3px;
+}
+
+.dropdown:hover > a span:after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content: "";
+    right: -15px;
+    position: absolute;
+    top: 6px;
+}
+
+#nav ul ul {
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+    width: 0;
+    -moz-transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out; 
+    -ms-transition: all 300ms ease-out; 
+    transition: all 300ms ease-out;
+}
+
+#nav ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+#nav ul ul li {
+    background: #f3f3f3;
+    float: none;    
+    line-height: 0;
+    width: 100%;            
+}
+
+#nav ul ul li:nth-child(odd) {
+    background: #eee;    
+}
+
+#nav ul ul li:first-child, #nav ul ul li:first-child a { 
+    -webkit-border-radius: 0; 
+    -moz-border-radius: 0; 
+    border-radius: 0; 
+}
+#nav ul ul li:last-child, #nav ul ul li:last-child a { 
+    -webkit-border-radius: 0 0 3px 3px; 
+    -moz-border-radius: 0 0 3px 3px; 
+    border-radius: 0 0 3px 3px; 
+}
+
+#nav ul ul li a {
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #fff;
+    color: #555;
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 0 0 15px;
+    text-align: left;
+    text-shadow: 0 -1px 0 #eee;
+}
+
+#nav ul li ul li a:after {
+    background: rgba(0,0,0,.02);
+    content: "";
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 19px;
+    width: 100%;
+}
+
+#nav ul ul li a:hover {
+    background: #ffd;
+    color: #111;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#nav ul ul a:active span {
+    color: #111;
+    position: relative;
+    top: 1px;
+}
+#main{
+margin:0 auto;
+}
+#footer{
+	text-align:center;
+}
+

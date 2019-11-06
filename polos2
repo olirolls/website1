@@ -1,0 +1,86 @@
+<html>
+  <head>
+     <title>WEBSITE</title>
+   <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+ 
+  <body>
+     <div id="container">
+      <div id="headercontainer">
+        <div id="searchcontainer">
+          <div id="search">
+         <form id="newsearch" method="get" action="http://www.google.com">
+          <input type="text" class="textinput" name="q" size="21" maxlength="120"><input type="submit" value="Search" class="button">
+    </form>
+      </div>
+          </div>
+    <div id="piccontainer">
+      <div id="pictures">
+         <ul>
+           <li><input type="image" src="print.png" width="40" height="40" onClick="window.print()" value="Print"/></li>
+           <li><a href="https://www.facebook.com/"><img src="fb.png"  width="40" height="40" ></a></li>
+           <li><a href="https://www.twitter.com/"><img src="tw.png"  width="40" height="40" ></a></li>
+        
+       </ul>
+      </div>
+    </div>
+    </div>
+<div class="clear"></div>
+     <br>
+    <div id+"navheadercontainer">
+          <div id="navheader">
+             <h2><center><img src="ewr.png"  width="910px" height="350px" ></center></h2>
+     </div>
+     </div>
+  <div id="navcontainer">
+         <div id="nav">
+             <ul>
+                 <li><a href="index.html" class="active"><span>Home</span></a></li>
+                 <li class="dropdown"><a href="announce.html"><span>Sale</span></a>
+             <ul>
+                 <li><a href="schedule.html"><span>T-Shirt</span></a></li>
+                 <li><a href="event.html"><span>Polo shirt</span></a></li>
+                 <li><a href="news.html"><span>Polo</span></a></li>
+             </ul>
+                 </li>
+                 <li class="dropdown"><a href="#"><span>Products</span></a>
+             <ul>
+                    <li><a href="Submit.html"><span>Apply</span></a></li>
+                    
+             </ul>
+                 </li>
+           <li class="dropdown"><a href="#"><span>Others</span></a>
+             <ul>
+                 <li><a href="programs.html"><span>Program Courses</span></a></li>
+             </ul>
+           <li class="dropdown"><a href="about.html"><span>Pages</span></a>
+             <ul>
+                 <li><a href="sports.html"><span>Sports</span></a></li>
+                
+                 <li><a href="student.html"><span>Student's Life</span></a></li>
+                 
+             </ul>
+                 </li>
+                 </li>
+           </ul>
+    </div>
+</div>
+<center><img src="polo.png"> <font color="White" size="20px">
+<p>500.00 Pesos</p></center>
+<th>Size</th>
+<select name="size">
+    <option value="Esmall"> Extra Small</option>
+        <option value="Small"> Small</option>
+            <option value="Meduim"> Meduim</option>
+                <option value="Large"> Large</option>
+</select><p> </p>
+
+<label class="control-label" for="name">Quantity of Order: </label>
+<input type="text" id="name"  placeholder="Quantity">
+<h1></h6>
+<a href="submit.html"> <button class="button"> Buy </button></a>
+<a href="buy.html"> <button class="button"> Cancel </button></a>
+
+</font>
+</font>
+
